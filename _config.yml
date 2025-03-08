@@ -55,7 +55,7 @@ description: |- # this means to ignore newlines until "baseurl:"
   Hi, Rafay here. I am an aspiring DevOps Engineer with experience in {insert a lot of tools here}.
   This is where I write about my new projects, debugging adventures and more.
 author: Rafay Ahmed
-url: https://chadbaldwin.net
+url: https://rafayahmed317.github.io/
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
@@ -76,7 +76,7 @@ show_excerpts: false
 
 # Used by simple links page
 social-links:
-  Resume:          /resume
+  # Resume:          /resume
   LinkedIn:        https://www.linkedin.com/in/rafay-ahmed-520a78220/
   StackOverflow:   https://stackoverflow.com/users/14352641
   GitHub:          https://github.com/rafayahmed317
@@ -117,7 +117,7 @@ code_block_max_height: 500px
 home_post_limit: 5
 
 # The github repo that is to be used for looking up comments
-# comments_repo: chadbaldwin/chadbaldwin.github.io
+comments_repo: rafayahmed317/rafayahmed317.github.io
 
 defaults:
   - scope:
