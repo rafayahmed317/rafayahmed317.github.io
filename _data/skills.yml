@@ -1,0 +1,41 @@
+#- skill: string
+#  description: string
+#  list:
+#    - array
+#    - of
+#    - strings
+#
+# Template supports both a description AND a skill list, however it may look best if only one or the
+# other is used. Lists are sorted and concatenated without line breaks separated by • (&bull;)
+
+- skill: Kubernetes
+  description: "Worked extensively with Kubernetes in my kubernetes-the-hard-way cluster and deployed various kubernetes add-ons like Flannel, CoreDNS, Cannal, Istio and Metal-LLB. Currently gearing up to sit-in for CKAD and CKA."
+- skill: .NET Development Using C# and PowerShell
+  description: "4+ years experience with PowerShell writing numerous scripts for system onboarding, AD management, third party integrations and 2+ years of experience working with C# and .NET to build back end services integrating with 3rd party APIs, web scraping, GUIs and task automation."
+- skill: Tools & Technologies
+  list:
+    - Docker
+    - Kubernetes
+    - OpenShift
+    - Helm
+    - Jenkins
+    - Talos
+    - Hyper-V
+    - Prometheus
+    - WSL
+    - WinDBG
+    - Azure DevOps
+    - AWS Services (incl. Console, CloudWatch, EC2, S3, SES, SNS, Secrets Manager)
+    - Azure Services
+    - Chrome DevTools
+    - Docker
+    - Elasticsearch
+    - Fiddler/BurpSuite
+    - Git
+    - PowerShell
+    - Visual Studio
+    - VS Code
+
+# HCHB to add:
+# Azure, Bicep, Azure DevOps, Pipelines (YAML), DacFx
+# Splunk, SentryOne, JAMS, Rancher, DBADash, 

@@ -1,0 +1,23 @@
+theme: default
+header:
+  name: Rafay Ahmed
+  display_contact_info: true
+  current_title: Student/Freelancer
+  intro: >
+    Enthusiastic DevOps Engineer having expertise in Kubernetes, AWS and Azure. 
+contact:
+  email: ahmedrafay888+resume@gmail.com
+sections:
+  experience:   false
+  education:    true
+  projects:     true
+  skills:       true
+  recognition:  true
+  associations: false
+  interests:    true
+  links:        true
+  social_links: false
+social:
+  Website:    /
+  GitHub:     https://github.com/rafayahmed317
+  LinkedIn:   https://www.linkedin.com/in/rafay-ahmed-520a78220/

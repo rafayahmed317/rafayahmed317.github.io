@@ -1,0 +1,138 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# # Build settings
+# theme: jekyll-theme-simplex
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+theme: minima
+
+title: Rafay's blog
+email: ahmedrafay888+blog@gmail.com
+description: |- # this means to ignore newlines until "baseurl:"
+  Hi, Rafay here. I am an aspiring DevOps Engineer with experience in {insert a lot of tools here}.
+  This is where I write about my new projects, debugging adventures and more.
+author: Rafay Ahmed
+url: https://chadbaldwin.net
+
+timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
+future: false # GitHub Pages will publish future posts if this isn't set to false
+
+# Minima variables
+github_username:   rafayahmed317
+linkedin_username: rafayahmed
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+rss: rss
+
+show_excerpts: false
+
+# Used by simple links page
+social-links:
+  Resume:          /resume
+  LinkedIn:        https://www.linkedin.com/in/rafay-ahmed-520a78220/
+  StackOverflow:   https://stackoverflow.com/users/14352641
+  GitHub:          https://github.com/rafayahmed317
+  Website:         /
+
+# plugin: jekyll-seo-tag
+social:
+  name: Rafay Ahmed
+  links:
+    - https://www.linkedin.com/in/rafay-ahmed-520a78220/
+    - https://github.com/rafayahmed317
+
+# plugin: jekyll-titles-from-headings
+titles_from_headings:
+  strip_title: true
+
+collections:
+  personal: # collection for personal blog posts
+    output: true
+
+header_pages:
+  - resume.html
+  - archive.html
+#  - books.md # Commenting out for now as putting more focus on pluralsight than reading
+  - bookmarks.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# google_analytics:
+  # - UA-185058308-1 # Old GA Universal Analytics property
+  # - G-RY6FRPMXHZ # New GA4 property
+
+gravatar_hash: 2136e716a089f4a3794f4007328c7bfb
+code_block_max_height: 500px
+
+home_post_limit: 5
+
+# The github repo that is to be used for looking up comments
+# comments_repo: chadbaldwin/chadbaldwin.github.io
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+  - scope:
+      path: ""
+      type: posts
+    values:
+      tags:
+        - Other # Add a default tag to all posts
+
+# Disable highlighting to use highlightJS instead
+# highlighter: none # Not supported by GitHub Pages
+kramdown:
+  syntax_highlighter_opts:
+    disable: true

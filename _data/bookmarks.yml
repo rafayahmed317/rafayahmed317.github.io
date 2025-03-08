@@ -1,0 +1,8 @@
+misc:
+  - name: Base64 Guru
+    description: Base64 encode/decode
+    link: https://base64.guru
+
+  - name: Etcd Decoder
+    description: An online tool to decode etcd binary data to YAML.
+    link: https://rafayahmed317.github.io/etcddecoder
