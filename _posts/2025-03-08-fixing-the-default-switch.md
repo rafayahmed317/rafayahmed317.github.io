@@ -2,7 +2,6 @@
 layout: post
 title:  "Fixing the default switch!"
 date:   2025-03-08 20:40:00 +0300
-categories: jekyll update
 tags: Hyper-V
 ---
 Recently, I had the pleasure of finding and fixing a really annoying error. I personally enjoy debugging errors like these, as they represent a challenge that can’t be solved simply by searching Google. And the feeling after successfully fixing them needs no explanation.
